@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../lesson12_hw/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row mt-1">
+      <div class="col"></div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand mb-0" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Blog
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdow" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                О нас
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Facebook</a></li>
+                <li><a class="dropdown-item" href="#">Instagram</a></li>
+                <li><a class="dropdown-item" href="#">Twitter</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="row center mt-4">
+      <div class="col-xxl-3 col-xl-6 col-md-12">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/1.jpg" class="d-block w-100" alt="1">
+            </div>
+            <div class="carousel-item">
+              <img src="images/2.jpg" class="d-block w-100" alt="2">
+            </div>
+            <div class="carousel-item">
+              <img src="images/3.jpg" class="d-block w-100" alt="3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="col-xxl-6 col-xl-6 col-md-12">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Nike
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Nike — американская транснациональная компания,
+                  специализирующаяся на спортивной одежде и обуви. Штаб-квартира — в городе Бивертон (штат
+                  Орегон). Почти
+                  вся продукция Nike производится сторонними компаниями-подрядчиками вне территории США (в
+                  основном в
+                  Азии), сама компания является правообладателем торговых марок, разрабатывает дизайн
+                  продукции и владеет
+                  сетью магазинов (около 1150 по всему миру), а также торговых центров NikeTown.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Adidas
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Adidas (стилизованно под adidas с 1949 года) — немецкая транснациональная
+                  компания по производству спортивной одежды, обуви и аксессуаров. Это крупнейший
+                  производитель спортивной
+                  одежды в Европе и второй по величине в мире после Nike. Это холдинговая компания Adidas
+                  Group,
+                  которая включает в себя Runtastic.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Puma
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>
+                  Puma SE — промышленная компания Германии, специализирующаяся на выпуске спортивной обуви,
+                  одежды,
+                  инвентаря и парфюмерии под торговой маркой Puma.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-5">
+          <form>
+            <div class="mb-3 mt-5">
+              <label for="Login" class="form-label">Login</label>
+              <input class="form-control form-control-sm" id="Login" type="text" placeholder="Login"
+                aria-label=".form-control-lg">
+            </div>
+            <div class="mb-3 mt-1">
+              <label for="Password" class="form-label">Password</label>
+              <input class="form-control form-control-sm" id="Password" type="password" placeholder="password"
+                aria-label=".form-control-lg">
+            </div>
+
+            <div class="mb-3 mt-1">
+              <label for="Email" class="form-label">Email</label>
+              <input class="form-control form-control-sm" id="Email" type="email" placeholder="Email"
+                aria-label=".form-control-lg">
+            </div>
+
+            <div class="mb-3">
+              <label for="formFileMultiple" class="form-label">File</label>
+              <input class="form-control form-control-sm" type="file" id="formFileMultiple" multiple>
+            </div>
+
+            <div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Call</label>
+                <textarea class="form-control form-control-sm" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </div>
+
+            <div class="row justify-content-center">
+              <div class="col-4">
+                <div class="mb-3">
+                  <input class="btn btn-primary btn-lg" type="submit" value="Отправить">
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
